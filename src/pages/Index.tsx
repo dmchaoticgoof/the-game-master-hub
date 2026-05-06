@@ -8,7 +8,7 @@ const services = [
     icon: Scroll,
     title: "One-Shot Adventures",
     desc: "A complete 3–4 hour story crafted for your group. Perfect for first-timers, birthdays, or a single epic night.",
-    price: "From $25",
+    price: "From $30",
     unit: "per player",
   },
   {
