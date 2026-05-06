@@ -93,7 +93,7 @@ const modules = [
     icon: Scroll,
     title: "The Sablewood Messengers",
     tag: "Daggerheart Intro",
-    desc: "The official intro adventure for Daggerheart. A perfect first step into Hope and Fear-driven storytelling.",
+    desc: "There's no way to \"win\" D&D... Right? See which of your party will stand tall in the end. Friend vs. friend in a high-stakes arena. Custom characters, escalating hazards, last person standing takes the glory!",
   },
   {
     icon: Sparkles,
