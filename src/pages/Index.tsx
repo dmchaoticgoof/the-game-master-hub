@@ -42,8 +42,8 @@ const testimonials = [
   },
   {
     quote: "Welcoming for total beginners. My partner went from 'dice are weird' to obsessed.",
-    name: "Elena V.",
-    role: "Birthday One-Shot",
+    name: "John W.",
+    role: "Multiple Campaigns",
   },
   {
     quote: "Worldbuilding so rich I started taking notes. A truly professional GM.",
