@@ -89,6 +89,18 @@ const modules = [
     tag: "Original",
     desc: "A gauntlet of puzzles, traps, and trials designed to test your group's wit, teamwork, and bravado.",
   },
+  {
+    icon: Scroll,
+    title: "The Sablewood Messengers",
+    tag: "Daggerheart Intro",
+    desc: "The official intro adventure for Daggerheart. A perfect first step into Hope and Fear-driven storytelling.",
+  },
+  {
+    icon: Sparkles,
+    title: "The Dying Spire",
+    tag: "Daggerheart Module",
+    desc: "A crumbling tower, ancient secrets, and high-stakes choices. Cinematic Daggerheart at its finest.",
+  },
 ];
 
 const Index = () => {
