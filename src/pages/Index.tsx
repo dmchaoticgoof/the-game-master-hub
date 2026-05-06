@@ -47,7 +47,7 @@ const testimonials = [
   },
   {
     quote: "Worldbuilding so rich I started taking notes. A truly professional GM.",
-    name: "Devon K.",
+    name: "Kevin R.",
     role: "Daggerheart Campaign",
   },
 ];
