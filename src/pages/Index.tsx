@@ -36,7 +36,7 @@ const systems = [
 
 const testimonials = [
   {
-    quote: "I'm so impressed by how he rolls with our decisions and stories. I'm not a fan of combat, but he found ways to make encounters about more than just hit points",
+    quote: "I'm so impressed by how he rolls with our decisions. I'm not a fan of combat, but he found ways to make encounters about more than just hit points",
     name: "Becky R.",
     role: "Player, Three-Year Campaign",
   },
