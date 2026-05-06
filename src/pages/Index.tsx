@@ -36,9 +36,9 @@ const systems = [
 
 const testimonials = [
   {
-    quote: "I couldn't believe where our story ended up! 10/10 would recommend.",
-    name: "Kevin R.",
-    role: "Player, Multiple Campaigns",
+    quote: "I'm so impressed by how he rolls with our decisions and stories. I'm not a fan of combat, but he found ways to make encounters about more than just hit points",
+    name: "Becky R.",
+    role: "Player, Three-Year Campaign",
   },
   {
     quote: "Welcoming for total beginners. My partner went from 'dice are weird' to obsessed.",
