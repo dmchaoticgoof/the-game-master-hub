@@ -265,6 +265,33 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Modules */}
+      <section id="modules" className="py-24 md:py-32">
+        <div className="container mx-auto">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="text-sm uppercase tracking-[0.2em] text-gold">Featured Adventures</p>
+            <h2 className="mt-3 font-display text-4xl md:text-5xl text-foreground">Popular modules I run</h2>
+            <p className="mt-4 text-muted-foreground">From iconic published campaigns to bespoke arenas built for your friend group, here's a taste of what's on the menu.</p>
+          </div>
+          <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {modules.map((m) => (
+              <Card key={m.title} className="group border-border/60 bg-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+                <CardContent className="p-7">
+                  <div className="flex items-center justify-between">
+                    <div className="inline-flex h-11 w-11 items-center justify-center rounded-lg bg-gradient-gold text-gold-foreground">
+                      <m.icon className="h-5 w-5" />
+                    </div>
+                    <span className="text-xs uppercase tracking-widest text-gold">{m.tag}</span>
+                  </div>
+                  <h3 className="mt-5 font-display text-2xl text-foreground">{m.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{m.desc}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Contact / CTA */}
       <section id="contact" className="bg-gradient-night py-24 md:py-32 text-parchment">
         <div className="container mx-auto max-w-3xl text-center">
