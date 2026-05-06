@@ -313,10 +313,15 @@ const Index = () => {
           <p className="mt-4 text-parchment/70 text-balance">
             Tell me about your group, the system you'd like to play, and the kind of story you're chasing. I'll reply within 48 hours with availability and a tailored proposal.
           </p>
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
+          <div className="mt-10 flex flex-col items-center gap-4">
             <Button asChild size="lg" className="bg-gradient-gold text-gold-foreground hover:opacity-90 border-0 shadow-glow">
               <a href="mailto:dmchaoticgoof@gmail.com">
                 <Mail className="mr-2 h-4 w-4" /> dmchaoticgoof@gmail.com
+              </a>
+            </Button>
+            <Button asChild size="lg" className="bg-gradient-gold text-gold-foreground hover:opacity-90 border-0 shadow-glow">
+              <a href="https://www.instagram.com/dmchaoticgoof/" target="_blank" rel="noopener noreferrer">
+                <Instagram className="mr-2 h-4 w-4" /> Instagram
               </a>
             </Button>
           </div>
