@@ -46,7 +46,7 @@ const testimonials = [
     role: "Multiple Campaigns",
   },
   {
-    quote: "Worldbuilding so rich I started taking notes. A truly professional GM.",
+    quote: "I was so surprised by where our story ended up! I learned the game so quick through playing even though it was my first time doing Daggerheart",
     name: "Kevin R.",
     role: "Daggerheart Campaign",
   },
