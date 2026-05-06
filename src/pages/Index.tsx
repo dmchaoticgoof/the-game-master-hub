@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star, Anvil } from "lucide-react";
+import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star, Anvil, Skull, Mountain, Flame, Trophy, Map, Compass } from "lucide-react";
 import heroImage from "@/assets/hero-table.jpg";
 
 const services = [
@@ -52,6 +52,45 @@ const testimonials = [
   },
 ];
 
+const modules = [
+  {
+    icon: Skull,
+    title: "Curse of Strahd",
+    tag: "D&D Module",
+    desc: "Gothic horror in the misty land of Barovia. Outwit a vampire lord across a sprawling, atmospheric campaign.",
+  },
+  {
+    icon: Mountain,
+    title: "Storm King's Thunder",
+    tag: "D&D Module",
+    desc: "Giants rampage across the Sword Coast. An epic, sandbox-style adventure for heroes ready to think big.",
+  },
+  {
+    icon: Flame,
+    title: "Lost Mine of Phandelver",
+    tag: "D&D Module",
+    desc: "The perfect introduction to D&D. Mystery, banditry, and a forgotten mine — ideal for new players.",
+  },
+  {
+    icon: Compass,
+    title: "Tomb of Annihilation",
+    tag: "D&D Module",
+    desc: "A deadly jungle expedition to stop a death curse. Pulpy, perilous, and unforgettable.",
+  },
+  {
+    icon: Trophy,
+    title: "Custom Battle Royale",
+    tag: "Original",
+    desc: "Friend vs. friend in a high-stakes arena. Custom characters, escalating hazards, last party standing wins glory.",
+  },
+  {
+    icon: Map,
+    title: "Custom Obstacle Course",
+    tag: "Original",
+    desc: "A gauntlet of puzzles, traps, and trials designed to test your group's wit, teamwork, and bravado.",
+  },
+];
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -65,6 +104,7 @@ const Index = () => {
           <div className="hidden md:flex items-center gap-8 text-sm text-parchment/80">
             <a href="#services" className="hover:text-gold transition-colors">Services</a>
             <a href="#systems" className="hover:text-gold transition-colors">Systems</a>
+            <a href="#modules" className="hover:text-gold transition-colors">Adventures</a>
             <a href="#about" className="hover:text-gold transition-colors">About</a>
             <a href="#contact" className="hover:text-gold transition-colors">Contact</a>
           </div>
@@ -219,6 +259,33 @@ const Index = () => {
                     <div className="font-medium text-foreground">{t.name}</div>
                     <div className="text-xs text-muted-foreground">{t.role}</div>
                   </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Modules */}
+      <section id="modules" className="py-24 md:py-32">
+        <div className="container mx-auto">
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="text-sm uppercase tracking-[0.2em] text-gold">Featured Adventures</p>
+            <h2 className="mt-3 font-display text-4xl md:text-5xl text-foreground">Popular modules I run</h2>
+            <p className="mt-4 text-muted-foreground">From iconic published campaigns to bespoke arenas built for your friend group, here's a taste of what's on the menu.</p>
+          </div>
+          <div className="mt-14 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {modules.map((m) => (
+              <Card key={m.title} className="group border-border/60 bg-card transition-all hover:-translate-y-1 hover:shadow-elegant">
+                <CardContent className="p-7">
+                  <div className="flex items-center justify-between">
+                    <div className="inline-flex h-11 w-11 items-center justify-center rounded-lg bg-gradient-gold text-gold-foreground">
+                      <m.icon className="h-5 w-5" />
+                    </div>
+                    <span className="text-xs uppercase tracking-widest text-gold">{m.tag}</span>
+                  </div>
+                  <h3 className="mt-5 font-display text-2xl text-foreground">{m.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{m.desc}</p>
                 </CardContent>
               </Card>
             ))}
