@@ -30,6 +30,8 @@ const services = [
 const systems = [
   { name: "Dungeons & Dragons 5e/5.5E", note: "Classic high fantasy. Heroic arcs, tactical combat, deep lore." },
   { name: "Daggerheart", note: "Cinematic, narrative-first storytelling driven by Hope and Fear." },
+  { name: "Candela Obscura", note: "Gaslit gothic horror investigations in the shadow of the Flame." },
+  { name: "Vampire: The Masquerade 5th Edition", note: "Personal horror and political intrigue among the eternal undead." },
 ];
 
 const testimonials = [
