@@ -177,9 +177,7 @@ const Index = () => {
               <p>
                 My tables prioritize <span className="text-foreground font-medium">safety, inclusion, and great storytelling</span>. We use session zeros, consent tools, and pacing that gives everyone room to shine. My acting and improv skills ensure an epic, frequently surprising, immersive experience. Expect complex combat, 3D and 2D visuals of the world, and NPCs you'll genuinely miss when they're gone. I'm also a game designer, and can build you a custom subclass if you're interested in a unique gaming experience.
               </p>
-              <p className="text-foreground font-medium">
-                YOU are the heroes. YOU decide where the adventure goes and what aspects of adventure we focus on.
-              </p>
+              <br />
               <div className="grid grid-cols-3 gap-4 pt-4">
                 {[
                   { icon: Users, label: "200+", sub: "Players hosted" },
