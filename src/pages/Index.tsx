@@ -41,7 +41,7 @@ const testimonials = [
     role: "Player, Three-Year Campaign",
   },
   {
-    quote: "Welcoming for total beginners. My partner went from 'dice are weird' to obsessed.",
+    quote: "He's really good at this. It felt like the adventure really happened because the emotions felt real.",
     name: "John W.",
     role: "Multiple Campaigns",
   },
