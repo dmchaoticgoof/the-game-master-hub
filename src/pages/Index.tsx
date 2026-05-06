@@ -30,15 +30,15 @@ const services = [
 const systems = [
   { name: "Dungeons & Dragons 5e/5.5E", note: "Classic high fantasy. Heroic arcs, tactical combat, deep lore." },
   { name: "Daggerheart", note: "Cinematic, narrative-first storytelling driven by Hope and Fear." },
-  { name: "Candela Obscura", note: "Gaslit gothic horror investigations in the shadow of the Flame." },
+  { name: "Candela Obscura", note: "Gothic horror investigations in the shadow of the Flame." },
   { name: "Vampire: The Masquerade 5th Edition", note: "Personal horror and political intrigue among the eternal undead." },
 ];
 
 const testimonials = [
   {
-    quote: "The most immersive game I've ever played. Felt like a movie I was starring in.",
-    name: "Marcus R.",
-    role: "Player, Year-long Campaign",
+    quote: "I couldn't believe where our story ended up! 10/10 would recommend.",
+    name: "Kevin R.",
+    role: "Player, Multiple Campaigns",
   },
   {
     quote: "Welcoming for total beginners. My partner went from 'dice are weird' to obsessed.",
@@ -115,7 +115,7 @@ const Index = () => {
         <div className="container mx-auto">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-sm uppercase tracking-[0.2em] text-gold">What I Offer</p>
-            <h2 className="mt-3 font-display text-4xl md:text-5xl text-foreground">Sessions crafted around you</h2>
+            <h2 className="mt-3 font-display md:text-5xl text-3xl text-foreground">Sessions crafted around you</h2>
             <p className="mt-4 text-muted-foreground">From a single legendary night to a saga that lasts a year. Every campaign is shaped by your group's tastes, pacing, and content preferences.</p>
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-3">
@@ -144,7 +144,7 @@ const Index = () => {
           <div className="grid gap-12 md:grid-cols-2 md:items-center">
             <div>
               <p className="text-sm uppercase tracking-[0.2em] text-gold">Game Systems</p>
-              <h2 className="mt-3 font-display text-4xl md:text-5xl">Two worlds. Endless stories.</h2>
+              <h2 className="mt-3 font-display text-4xl md:text-5xl">Uncharted Worlds. Unending stories.</h2>
               <p className="mt-4 text-parchment/70 max-w-md">
                 Whether you crave the structured heroics of D&D or the cinematic flow of Daggerheart, I'll guide your party through it with care and craft.
               </p>
