@@ -104,6 +104,7 @@ const Index = () => {
           <div className="hidden md:flex items-center gap-8 text-sm text-parchment/80">
             <a href="#services" className="hover:text-gold transition-colors">Services</a>
             <a href="#systems" className="hover:text-gold transition-colors">Systems</a>
+            <a href="#modules" className="hover:text-gold transition-colors">Adventures</a>
             <a href="#about" className="hover:text-gold transition-colors">About</a>
             <a href="#contact" className="hover:text-gold transition-colors">Contact</a>
           </div>
