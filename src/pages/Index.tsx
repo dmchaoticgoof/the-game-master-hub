@@ -15,7 +15,7 @@ const services = [
     icon: Swords,
     title: "Ongoing Campaigns",
     desc: "Weekly or biweekly sessions with persistent characters, deep world-building, and consequences that matter.",
-    price: "From $30",
+    price: "From $25",
     unit: "per player / session",
   },
   {
