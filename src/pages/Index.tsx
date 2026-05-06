@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star, Anvil, Skull, Mountain, Flame, Trophy, Map, Compass } from "lucide-react";
+import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star, Anvil, Skull, Mountain, Flame, Trophy, Map, Compass, Instagram } from "lucide-react";
 import heroImage from "@/assets/hero-table.jpg";
 
 const services = [
@@ -317,6 +317,11 @@ const Index = () => {
             <Button asChild size="lg" className="bg-gradient-gold text-gold-foreground hover:opacity-90 border-0 shadow-glow">
               <a href="mailto:dmchaoticgoof@gmail.com">
                 <Mail className="mr-2 h-4 w-4" /> dmchaoticgoof@gmail.com
+              </a>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="border-parchment/40 bg-transparent text-parchment hover:bg-parchment/10 hover:text-parchment">
+              <a href="https://www.instagram.com/dmchaoticgoof/" target="_blank" rel="noopener noreferrer">
+                <Instagram className="mr-2 h-4 w-4" /> @dmchaoticgoof
               </a>
             </Button>
           </div>
