@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star, Anvil } from "lucide-react";
+import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star, Anvil, Skull, Mountain, Flame, Trophy, Map, Compass } from "lucide-react";
 import heroImage from "@/assets/hero-table.jpg";
 
 const services = [
@@ -49,6 +49,45 @@ const testimonials = [
     quote: "Worldbuilding so rich I started taking notes. A truly professional GM.",
     name: "Devon K.",
     role: "Daggerheart Campaign",
+  },
+];
+
+const modules = [
+  {
+    icon: Skull,
+    title: "Curse of Strahd",
+    tag: "D&D Module",
+    desc: "Gothic horror in the misty land of Barovia. Outwit a vampire lord across a sprawling, atmospheric campaign.",
+  },
+  {
+    icon: Mountain,
+    title: "Storm King's Thunder",
+    tag: "D&D Module",
+    desc: "Giants rampage across the Sword Coast. An epic, sandbox-style adventure for heroes ready to think big.",
+  },
+  {
+    icon: Flame,
+    title: "Lost Mine of Phandelver",
+    tag: "D&D Module",
+    desc: "The perfect introduction to D&D. Mystery, banditry, and a forgotten mine — ideal for new players.",
+  },
+  {
+    icon: Compass,
+    title: "Tomb of Annihilation",
+    tag: "D&D Module",
+    desc: "A deadly jungle expedition to stop a death curse. Pulpy, perilous, and unforgettable.",
+  },
+  {
+    icon: Trophy,
+    title: "Custom Battle Royale",
+    tag: "Original",
+    desc: "Friend vs. friend in a high-stakes arena. Custom characters, escalating hazards, last party standing wins glory.",
+  },
+  {
+    icon: Map,
+    title: "Custom Obstacle Course",
+    tag: "Original",
+    desc: "A gauntlet of puzzles, traps, and trials designed to test your group's wit, teamwork, and bravado.",
   },
 ];
 
