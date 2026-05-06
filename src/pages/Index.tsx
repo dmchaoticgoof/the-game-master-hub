@@ -319,7 +319,7 @@ const Index = () => {
                 <Mail className="mr-2 h-4 w-4" /> dmchaoticgoof@gmail.com
               </a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-parchment/40 bg-transparent text-parchment hover:bg-parchment/10 hover:text-parchment">
+            <Button asChild size="lg" variant="outline" className="border-parchment/40 bg-accent text-primary">
               <a href="https://www.instagram.com/dmchaoticgoof/" target="_blank" rel="noopener noreferrer">
                 <Instagram className="mr-2 h-4 w-4" /> @dmchaoticgoof
               </a>
