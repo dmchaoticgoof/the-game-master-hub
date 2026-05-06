@@ -320,7 +320,7 @@ const Index = () => {
               </a>
             </Button>
             <Button asChild size="lg" className="bg-gradient-gold text-gold-foreground hover:opacity-90 border-0 shadow-glow">
-              <a href="https://www.instagram.com/dmchaoticgoof/" target="_blank" rel="noopener noreferrer" className="text-gold-foreground visited:text-gold-foreground">
+              <a href="https://www.instagram.com/dmchaoticgoof/" target="_blank" rel="noopener noreferrer">
                 <Instagram className="mr-2 h-4 w-4" /> @dmchaoticgoof
               </a>
             </Button>
