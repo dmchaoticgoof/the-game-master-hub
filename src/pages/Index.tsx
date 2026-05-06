@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star } from "lucide-react";
+import { Dice6, Scroll, Sparkles, Swords, Crown, Users, Mail, Star, Anvil } from "lucide-react";
 import heroImage from "@/assets/hero-table.jpg";
 
 const services = [
@@ -28,7 +28,7 @@ const services = [
 ];
 
 const systems = [
-  { name: "Dungeons & Dragons 5e", note: "Classic high fantasy. Heroic arcs, tactical combat, deep lore." },
+  { name: "Dungeons & Dragons 5e/5.5E", note: "Classic high fantasy. Heroic arcs, tactical combat, deep lore." },
   { name: "Daggerheart", note: "Cinematic, narrative-first storytelling driven by Hope and Fear." },
 ];
 
@@ -58,7 +58,7 @@ const Index = () => {
         <nav className="container mx-auto flex items-center justify-between py-6">
           <a href="#" className="flex items-center gap-2 font-display text-xl text-parchment">
             <Dice6 className="h-6 w-6 text-gold" />
-            <span>The Wandering GM</span>
+            <span>Chaotic goof</span>
           </a>
           <div className="hidden md:flex items-center gap-8 text-sm text-parchment/80">
             <a href="#services" className="hover:text-gold transition-colors">Services</a>
@@ -172,16 +172,19 @@ const Index = () => {
             </div>
             <div className="space-y-5 text-muted-foreground leading-relaxed">
               <p>
-                I'm a full-time Game Master with over a decade behind the screen. I've run hundreds of sessions — from one-shot heists to multi-year campaigns — for everyone from first-time rollers to veterans of the hobby.
+                I'm a full-time Game Master with over a decade behind the screen. I've run hundreds of sessions — from one-shot heists to multi-year campaigns — for everyone from first-time rollers to veterans of the hobby. I've worked for Darrington Press as a GM and performed live at San Diego Comic Con, WonderCon, and LA Comic Con as well as in a variety of actual plays.
               </p>
               <p>
-                My tables prioritize <span className="text-foreground font-medium">safety, inclusion, and great storytelling</span>. We use session zeros, consent tools, and a pace that gives everyone room to shine. Expect prepared maps, custom soundscapes, and NPCs you'll genuinely miss when they're gone.
+                My tables prioritize <span className="text-foreground font-medium">safety, inclusion, and great storytelling</span>. We use session zeros, consent tools, and pacing that gives everyone room to shine. My acting and improv skills ensure an epic, frequently surprising, immersive experience. Expect complex combat, 3D and 2D visuals of the world, and NPCs you'll genuinely miss when they're gone. I'm also a game designer, and can build you a custom subclass if you're interested in a unique gaming experience.
+              </p>
+              <p className="text-foreground font-medium">
+                YOU are the heroes. YOU decide where the adventure goes and what aspects of adventure we focus on.
               </p>
               <div className="grid grid-cols-3 gap-4 pt-4">
                 {[
                   { icon: Users, label: "200+", sub: "Players hosted" },
                   { icon: Scroll, label: "10 yrs", sub: "Behind the screen" },
-                  { icon: Star, label: "5.0", sub: "Average rating" },
+                  { icon: Anvil, label: "1000+", sub: "Sessions run" },
                 ].map((s) => (
                   <div key={s.sub} className="rounded-lg border border-border bg-card p-4 text-center">
                     <s.icon className="mx-auto h-5 w-5 text-gold" />
@@ -233,8 +236,8 @@ const Index = () => {
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-gradient-gold text-gold-foreground hover:opacity-90 border-0 shadow-glow">
-              <a href="mailto:hello@thewanderinggm.com">
-                <Mail className="mr-2 h-4 w-4" /> hello@thewanderinggm.com
+              <a href="mailto:dmchaoticgoof@gmail.com">
+                <Mail className="mr-2 h-4 w-4" /> dmchaoticgoof@gmail.com
               </a>
             </Button>
           </div>
@@ -246,7 +249,7 @@ const Index = () => {
         <div className="container mx-auto flex flex-col gap-2 text-center text-sm text-muted-foreground md:flex-row md:justify-between">
           <div className="flex items-center justify-center gap-2">
             <Dice6 className="h-4 w-4 text-gold" />
-            <span className="font-display text-foreground">The Wandering GM</span>
+            <span className="font-display text-foreground">DM CHAOTIC GOOF</span>
           </div>
           <div>© {new Date().getFullYear()} · Crafted with d20s and care.</div>
         </div>
