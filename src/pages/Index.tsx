@@ -241,7 +241,7 @@ const Index = () => {
               </a>
             </Button>
           </div>
-          <p className="mt-6 text-xs text-parchment/50">Online sessions worldwide · In-person within Greater London</p>
+          <p className="mt-6 text-xs text-parchment/50">Online sessions worldwide · In-person within Santa Barbara/LA area</p>
         </div>
       </section>
 
